@@ -1,6 +1,6 @@
 import sublime
 import sublime_plugin
-import sys
+import subprocess
 import re
 
 class AddFrozenStringLiteral(sublime_plugin.EventListener):
